@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require 'rbdec'
 
 def before(_param, *t_param, &t_block)
   t_param[0] *= 2
